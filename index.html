@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    
+    <title>Homework 1</title>
+	<style>
+	*{
+		box-sizing: border-box;
+		}
+	.box{
+		float: left;
+		width: 300px;
+		height:250px;
+		padding: 10px;
+		}
+	.boxMiddle{
+		float: left;
+		width: 600px;
+		height:250px;
+		padding: 10px;
+		}
+		
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+		}
+	.outer .clear{
+		clear:both; width: 0px; height: 0; padding: 0; margin: 0;
+		}
+	.centerTable{
+		all: center;
+		}
+	</style>
+</head>
+
+<body>
+					<div class="all">
+   
+
+							<div class="clearfix">
+								 <div class="box" style="background-color:#bbb" >
+									<img src = "https://tse4.mm.bing.net/th?id=OIP.kiAN1fLkmXmgeXGlJBg6jQHaK7&pid=Api&P=0&w=300&h=300" width = 150 height = 200><br/>
+									<a href="https://tse4.mm.bing.net/th?id=OIP.kiAN1fLkmXmgeXGlJBg6jQHaK7&pid=Api&P=0&w=300&h=300" > Image source</a>
+								 </div>
+								 
+								 <div class="boxMiddle" style="background-color:#ccc" >
+									<font face = "calibri"> <h2>To Kill a Mockingbird: Harper Lee</h2> This book gives some insight into what America was like <br/> 
+								 					 			 in the 60's regarding racism</font>
+								</div>
+								
+								
+								<div class="box" style="background-color:#ddd" >
+								 <a href = "https://r.search.yahoo.com/_ylt=A2KLfSsGWXFdv5cA0hBXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567738246/RO=10/RU=https%3a%2f%2fwww.britannica.com%2ftopic%2fTo-Kill-a-Mockingbird/RK=2/RS=2Rpew0ATgkY3ISyux2rUqfIDAE4-"> Book Info</a> <br/>
+								 <a href="https://r.search.yahoo.com/_ylt=AwrJ6yr2WXFdiYEAgKhXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567738486/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fHarper_Lee/RK=2/RS=tRTa9H81K0Qv_A0WD_z6TgWQIQY-">Author Info</a>
+								</div>
+							
+							
+							 <div class="clear" style="clear:both;"></div>
+								
+								<div class="box" style="background-color:#bbb" >
+									<img src = "https://bittenbythelitbug.files.wordpress.com/2014/10/the-great-gatsby-book-review.jpg" width = 150 height = 200><br/></a>
+									<a href="https://bittenbythelitbug.files.wordpress.com/2014/10/the-great-gatsby-book-review.jpg">Image Source</a>
+								</div>
+								
+								<div class="boxMiddle" style="background-color:#ccc" >
+									<font face = "calibri"> <h2>The Great Gatsby: F. Scott Fitzgerald</h2><br/> The Great Gatsby is a classic piece of American literature,<br/>
+																it focuses on Jay Gatsby, Nick and their interactions</font>
+								</div>
+								
+								<div class="box" style="background-color:#ddd" >						 	 																		 		 
+									<a href="https://r.search.yahoo.com/_ylt=A0geKYmfXHFdYQkAGpZXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567739167/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fThe_Great_Gatsby/RK=2/RS=EGPSV3pY5rbU.AEMNflroX9jdtI-">Book Info</a><br/>
+								    <a href="https://r.search.yahoo.com/_ylt=A0geK.jyXHFd3yYA5pxXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567739251/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fF._Scott_Fitzgerald/RK=2/RS=Rgb3PWJNCkOIQHSbijMpPIYCt48-">Author Info</a>
+				
+								</div>
+							
+							<div class="clear" style="clear:both;"></div>
+								
+								<div class="box" style="background-color:#bbb" >
+									<img src="http://www.diablomag.com/moneyball_book.jpg" width = 150 height = 200><br/></a>
+									<a href="http://www.diablomag.com/moneyball_book.jpg">Image Source</a>
+								</div>
+								
+								<div class="boxMiddle" style="background-color:#ccc" >
+									<font face = "calibri"> <h2>Moneyball: Michael Lewis</h2><br/> Moneyball is centered around the Oakland Athletics organization<br/>
+																				and how their GM uses new-age tactics to bring an unlikely team to the playoffs
+								</div>
+								
+								<div class="box" style="background-color:#ddd" >
+											<a href="https://r.search.yahoo.com/_ylt=A2KIbNPMknFdVREAFsdXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567753036/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fMoneyball/RK=2/RS=Vs_mmLT5wY5Qjo9HQ8n58MPAIoo-">Book Info</a><br/>
+										 <a href="https://r.search.yahoo.com/_ylt=A0geK.j9knFdPAcAal5XNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567753085/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fMichael_Lewis/RK=2/RS=Co3JaxeCRMIyGiOC2R8s8kTeWFc-">Author Info</a>
+								</div>
+								
+							 <div class="clear" style="clear:both;"></div>
+							 
+								<div class="box" style="background-color:#bbb" > 
+									<<img src="https://tse1.mm.bing.net/th?id=OIP.p_d02CDI4jfgJp7X80ovuQHaKn&pid=Api&P=0&w=300&h=300" width = 150 height = 200><br/></a>
+									<a href="https://tse1.mm.bing.net/th?id=OIP.p_d02CDI4jfgJp7X80ovuQHaKn&pid=Api&P=0&w=300&h=300">Image Source</a>
+								</div>	
+							
+								<div class="boxMiddle" style="background-color:#ccc" >
+									<font face = "calibri"> <h2>Catcher in the Rye: J.D. Salinger</h2><br/>Catcher in the Rye focuses on Holden Caulfield as he adventures through<br/>
+															the city, learning about adulthood and himself.
+								</div>
+							
+								<div class="box" style="background-color:#ddd" >
+										<a href="https://r.search.yahoo.com/_ylt=A2KLfSFmlHFdITgAKENXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567753447/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fThe_Catcher_in_the_Rye/RK=2/RS=3MtuAknlpTB1a4cb8Vyo6y4dYCU-">Book Info</a><br/>
+									<a href="https://r.search.yahoo.com/_ylt=A0PDsByJlHFd5bMApGFXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567753482/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fJ._D._Salinger/RK=2/RS=g6UnfZcUBrZqO2gVRX5cvzTv3Fo-">Author Info</a>
+								</div>
+							<div class="clear" style="clear:both;"></div>
+							
+								<div class="box" style="background-color:#bbb" >
+									<img src="https://tse1.mm.bing.net/th?id=OIP.z_yzRsS78fWvSaYGY4ncVAHaKs&pid=Api&P=0&w=300&h=300" width = 150 height = 200><br/></a>
+									<a href="https://tse1.mm.bing.net/th?id=OIP.z_yzRsS78fWvSaYGY4ncVAHaKs&pid=Api&P=0&w=300&h=300">Image source</a>
+								</div>
+								
+								<div class="boxMiddle" style="background-color:#ccc" >
+									<font face = "calibri"> <h2>Harry Potter and the Sorcerers Stone: J.K. Rowling</h2>Harry Potter has amassed a huge following by creating a compelling <br/>
+							 								 	 														 		 		 					 						 						 through a magical story
+								</div>
+								
+								<div class="box" style="background-color:#ddd" >
+									<a href="https://r.search.yahoo.com/_ylt=A2KIbNNrq3Fdsh0AcGxXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567759339/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fHarry_Potter_and_the_Philosopher%2527s_Stone/RK=2/RS=tSlWQ6Jq7AAaXCVqoAUL5bELKaQ-">Book Info</a><br/>
+									 <a href="https://r.search.yahoo.com/_ylt=AwrJ7Ju5q3Fd2ckAswFXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567759418/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fJ._K._Rowling/RK=2/RS=pwar86K3rNoKjnMMfwbNvlwYqEU-">Author Info</a>																																											 
+								</div>
+							<div class="clear" style="clear:both;"></div>
+						
+						<div class="box" style="background-color:#bbb" >
+							<img src="http://prodimage.images-bn.com/pimages/9780140177398_p0_v1_s1200x630.jpg" width = 150 height = 200><br/></a>
+								 <a href="http://prodimage.images-bn.com/pimages/9780140177398_p0_v1_s1200x630.jpg">Image Source</a>
+						</div>
+						
+						<div class="boxMiddle" style="background-color:#ccc" >
+							<font face = "calibri"> <h2>Of Mice and Men: John Steinbeck</h2>Of Mice and Men follows George and Lennie as they chase their dreams <br/>
+								 			 									 						 		 		 of owning a farm together.
+						</div>
+						
+						<div class="box" style="background-color:#ddd" >
+								<a href="https://r.search.yahoo.com/_ylt=AwrEzevKrHFdjd0AxTRXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567759690/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fOf_Mice_and_Men/RK=2/RS=twt8hwadFJ8osAqaczwb.wP1_f0-">Book Info<br/></a>
+								 <a href="https://r.search.yahoo.com/_ylt=AwrJ61TrrHFd4WoASRlXNyoA;_ylu=X3oDMTEybm9hdWdwBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc2M-/RV=2/RE=1567759724/RO=10/RU=https%3a%2f%2fsimple.wikipedia.org%2fwiki%2fJohn_Steinbeck/RK=2/RS=WE9SGsUJ4Cn_btS_p84NkdnUmXw-">Author Info</a>
+						
+						</div>
+						
+							<div class="clear" style="clear:both;"</div>
+						<div class="box" style="background-color:#bbb" >
+							<img src="https://metheobserver.files.wordpress.com/2012/07/tuesdays-with-morrie.jpg" width = 150 height = 200<br/></a>
+								 <br/> <a href="https://metheobserver.files.wordpress.com/2012/07/tuesdays-with-morrie.jpg">Image Source</a>
+						</div>
+						
+						<div class="boxMiddle" style="background-color:#ccc" >
+							<font face = "calibri"> <h2>Tuesdays with Morrie: Mitch Albom</h2>Tuesdays with Morrie focuses on Morrie who has a terminal illness and Mitch<br/>
+								 			 									 									 				 			 					 who meets with him every week to discuss life and the secret to happiness
+						</div>
+
+						<div class="box" style="background-color:#ddd" >
+								 <a href="https://r.search.yahoo.com/_ylt=AwrJ7Jv7tXFdCCEADw9XNyoA;_ylu=X3oDMTEybm9hdWdwBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc2M-/RV=2/RE=1567762043/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fTuesdays_with_Morrie/RK=2/RS=Ia2p_kF_wHC8hFsrEqsexmQ9LrM-">Book Info<br/></a>
+								 <a href="https://r.search.yahoo.com/_ylt=A2KLfSYZtnFdbiQAPldXNyoA;_ylu=X3oDMTEybm9hdWdwBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc2M-/RV=2/RE=1567762073/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fMitch_Albom/RK=2/RS=5SvUNKT5rxgA_DnLf39jOHib6Z0-">Author Info</a>
+						</div>
+						
+							<div class="clear" style="clear:both;"</div>
+							
+						<div class="box" style="background-color:#bbb" >
+							<img src="http://erinpodolak.com/wp-content/uploads/2012/03/11.jpeg"width = 150 height = 200</a><br/>
+								 <a href="http://erinpodolak.com/wp-content/uploads/2012/03/11.jpeg">Image Source</a>
+						</div>
+						
+						<div class="boxMiddle" style="background-color:#ccc" >
+							<font face = "calibri"> <h2>In Cold Blood: Truman Capote</h2>In Cold Blood follows two criminals attempted escape after they <br/>murder a family
+						</div>
+						
+						<div class="box" style="background-color:#ddd" >
+						 <a href="https://r.search.yahoo.com/_ylt=A0geK.D5t3FdHtYAkw1XNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567762553/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fIn_Cold_Blood/RK=2/RS=o.u4RN8hV1BGs5zHHC2wyj6.ACA-">Book Info<br/></a>
+								 <a href="https://r.search.yahoo.com/_ylt=A0geK.EWuHFdxb8AI9BXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567762582/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fTruman_Capote/RK=2/RS=a9S2_21kzhiSVp68sTnRbmAM53M-">Author Info</a>
+						</div>
+						
+							<div class="clear" style="clear:both;"></div>
+						
+						<div class="box" style="background-color:#bbb" >
+							<img src="https://tse4.mm.bing.net/th?id=OIP.OVbBub_hdVAaLbJrtWEFXgHaLL&pid=Api&P=0&w=300&h=300"width = 150 height = 200<br/></a>
+								 <br/><a href="https://tse4.mm.bing.net/th?id=OIP.OVbBub_hdVAaLbJrtWEFXgHaLL&pid=Api&P=0&w=300&h=300">Image Source</a>
+						</div>
+						
+						<div class="boxMiddle" style="background-color:#ccc" >
+							<font face = "calibri"> <h2>Hunger Games: Suzanne Collins</h2>The Hunger Games is set in the future where </br> 
+								 			 									  teens are forced to fight to the death.
+						</div>
+						
+						<div class="box" style="background-color:#ddd" >
+								<a href="https://r.search.yahoo.com/_ylt=AwrJ7FtIuXFdv9QA67ZXNyoA;_ylu=X3oDMTEybDNlcWhqBGNvbG8DYmYxBHBvcwMyBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567762889/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fThe_Hunger_Games/RK=2/RS=KcSHGv.hIBwwsN99ORRZaqTZO_c-">Book Info<br/></a>
+								 <a href="https://r.search.yahoo.com/_ylt=AwrJ6ytvuXFd5F4AmApXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567762928/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fSuzanne_Collins/RK=2/RS=DSHT9PgsqV8fATuls0j96mUokOI-">Author Info<br/></a>
+				
+						</div>
+				
+							<div class="clear" style="clear:both;"></div>
+						
+						<div class="box" style="background-color:#bbb" >
+				
+								<img src="http://prodimage.images-bn.com/pimages/9780743477123_p0_v4_s1200x630.jpg"width = 150 height = 200 <br/> </a>
+								 <br/><a href="http://prodimage.images-bn.com/pimages/9780743477123_p0_v4_s1200x630.jpg">Image Source</a>
+						</div>
+						
+						<div class="boxMiddle" style="background-color:#ccc" >
+							<font face = "calibri"> <h2>Hamlet: Shakespeare</h2>Hamlet follows a prince on his journey for vengence <br/>
+								 			 									 						 								for his fathers death
+						</div>
+						
+						<div class="box" style="background-color:#ddd" >
+								<a href="https://r.search.yahoo.com/_ylt=A2KLfSUGu3FdG3oAMwBXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567763335/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fHamlet/RK=2/RS=EyxP7qXGxeLZHrjG8GyXz9MGWKo-">Book Info<br/></a>
+								 	<a href="https://r.search.yahoo.com/_ylt=AwrJ6yolu3Fd7AIAOAdXNyoA;_ylu=X3oDMTEyYTVmcHRxBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjg1ODlfMQRzZWMDc3I-/RV=2/RE=1567763366/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fWilliam_Shakespeare/RK=2/RS=2m4YIzc5p2L3_Osv7pyUIHX.nIs-">Author Info</a></td>
+						</div>
+				
+				</div>
+				</div>
+			
+				
+				
+	 
+	 
+	 
+        
+    </script>
+</body>
+
+</html>
